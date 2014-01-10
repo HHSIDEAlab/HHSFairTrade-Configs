@@ -606,481 +606,477 @@
       type: 'location',
       name: 'Liberia'
     },
-    'astapor': {
+    'Libya': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Libya'
     },
-    'astapor': {
+    'Liechtenstein': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Liechtenstein'
     },
-    'astapor': {
+    'Lithuania': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Lithuania'
     },
-    'astapor': {
+    'Luxembourg': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Luxembourg'
     },
-    'astapor': {
+    'Macau': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Macau'
     },
-    'astapor': {
+    'Macedonia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Macedonia'
     },
-    'astapor': {
+    'Madagascar': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Madagascar'
     },
-    'astapor': {
+    'Malawi': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Malawi'
     },
-    'astapor': {
+    'Malaysia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Malaysia'
     },
-    'astapor': {
+    'Maldives': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Maldives'
     },
-    'astapor': {
+    'Mali': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mali'
     },
-    'astapor': {
+    'Malta': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Malta'
     },
-    'astapor': {
+    'Marshall Islands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Marshall Islands'
     },
-    'astapor': {
+    'Martinique': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Martinique'
     },
-    'astapor': {
+    'Mauritania': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mauritania'
     },
-    'astapor': {
+    'Mauritius': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mauritius'
     },
-    'astapor': {
+    'Mayotte': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mayotte'
     },
-    'astapor': {
+    'Mexico': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mexico'
     },
-    'astapor': {
+    'Micronesia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Micronesia'
     },
-    'astapor': {
+    'Moldova': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Moldova'
     },
-    'astapor': {
+    'Monaco': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Monaco'
     },
-    'astapor': {
+    'Mongolia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mongolia'
     },
-    'astapor': {
+    'Montenegro': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Montenegro'
     },
-    'astapor': {
+    'Montserrat': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Montserrat'
     },
-    'astapor': {
+    'Morocco': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Morocco'
     },
-    'astapor': {
+    'Mozambique': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mozambique'
     },
-    'astapor': {
+    'Namibia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Namibia'
     },
-    'astapor': {
+    'Nauru': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nauru'
     },
-    'astapor': {
+    'Nepal': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nepal'
     },
-    'astapor': {
+    'Netherlands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Netherlands'
     },
-    'astapor': {
+    'NetherlandsAntilles': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Netherlands Antilles'
     },
-    'astapor': {
+    'New Caledonia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New Caledonia'
     },
-    'astapor': {
+    'New Zealand': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New Zealand'
     },
-    'astapor': {
+    'Nicaragua': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nicaragua'
     },
-    'astapor': {
+    'Niger': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Niger'
     },
-    'astapor': {
+    'Nigeria': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nigeria'
     },
-    'astapor': {
+    'Niue': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Niue'
     },
-    'astapor': {
+    'NorfolkIsland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Norfolk Island'
     },
-    'astapor': {
+    'NorthernMarianaIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Northern Mariana Islands'
     },
-    'astapor': {
+    'Norway': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Norway'
     },
-    'astapor': {
+    'Oman': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Oman'
     },
-    'astapor': {
+    'Pakistan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Pakistan'
     },
-    'astapor': {
+    'Palau': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Palau'
     },
-    'astapor': {
+    'Panama': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Panama'
     },
-    'astapor': {
+    'PapuaNewGuinea': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Papua New Guinea'
     },
-    'astapor': {
+    'ParacelIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Paracel Islands'
     },
-    'astapor': {
+    'Paraguay': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Paraguay'
     },
-    'astapor': {
+    'Peru': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Peru'
     },
-    'astapor': {
+    'Philippines': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Philippines'
     },
-    'astapor': {
+    'Poland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Poland'
     },
-    'astapor': {
+    'Portugal': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Portugal'
     },
-    'astapor': {
+    'PuertoRico': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Puerto Rico'
     },
-    'astapor': {
+     'Qatar': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Qatar'
     },
-     'astapor': {
+    'Reunion': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Reunion'
     },
-    'astapor': {
+     'Romania': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Romania'
     },
-      'astapor': {
+      'Russia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Russia'
     },
-      'astapor': {
+      'Rwanda': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Rwanda'
     },
-      'astapor': {
+      'SaintHelena,Ascension,andTristandaCunha': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saint Helena, Ascension, and Tristan da Cunha'
     },
-      'astapor': {
+      'SaintKittsandNevis': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saint Kitts and Nevis'
     },
-      'astapor': {
+    'SaintLucia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saint Lucia'
     },
-    'astapor': {
+     'SaintPierreandMiquelon': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saint Pierre and Miquelon'
     },
-     'astapor': {
+    'SaintVincentandtheGrenadines': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saint Vincent and the Grenadines'
     },
-    'astapor': {
+      'Samoa': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Samoa'
     },
-      'astapor': {
+      'SanMarino': {
       type: 'location',
-      name: 'Astapor'
+      name: 'San Marino'
     },
-      'astapor': {
+      'SaoTomeandPrincipe': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sao Tome and Principe'
     },
-      'astapor': {
+      'SaudiArabia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Saudi Arabia'
     },
-      'astapor': {
+      'Senegal': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Senegal'
     },
-      'astapor': {
+      'Serbia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Serbia'
     },
-        'astapor': {
+     'Seychelles': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Seychelles'
     },
-     'astapor': {
+    'Sierra Leone': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sierra Leone'
     },
-    'astapor': {
+     'Singapore': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Singapore'
     },
-      'astapor': {
+      'SintMaarten': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sint Maarten'
     },
-      'astapor': {
+      'Slovakia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Slovakia'
     },
-      'astapor': {
+      'Slovenia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Slovenia'
     },
-      'astapor': {
+      'SolomonIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Solomon Islands'
     },
-      'astapor': {
+     'Somalia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Somalia'
     },
-        'astapor': {
+     'SouthAfrica': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Africa'
     },
-     'astapor': {
+    'SouthGeorgiaandtheSouthSandwichIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Georgia and the South Sandwich Islands'
     },
-    'astapor': {
+      'SouthSudan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Sudan'
     },
-      'astapor': {
+      'SpratlyIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Spratly Islands'
     },
-      'astapor': {
+      'SriLanka': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sri Lanka'
     },
-      'astapor': {
+      'Sudan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sudan'
     },
-      'astapor': {
+      'Suriname': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Suriname'
     },
-      'astapor': {
+        'Swaziland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Swaziland'
     },
-        'astapor': {
+     'Sweden': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Sweden'
     },
-     'astapor': {
+    'Switzerland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Switzerland'
     },
-    'astapor': {
+      'Syria': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Syria'
     },
-      'astapor': {
+      'Taiwan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Taiwan'
     },
-      'astapor': {
+      'Tajikistan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tajikistan'
     },
-      'astapor': {
+      'Tanzania': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tanzania'
     },
-      'astapor': {
+      'Thailand': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Thailand'
     },
-      'astapor': {
+      'Timor-Leste': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Timor-Leste'
     },
-        'astapor': {
+     'Togo': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Togo'
     },
-     'astapor': {
+    'Tokelau': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tokelau'
     },
-    'astapor': {
+      'Tonga': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tonga'
     },
-      'astapor': {
+      'TrinidadandTobago': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Trinidad and Tobago'
     },
-      'astapor': {
+      'TromelinIsland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tromelin Island'
     },
-      'astapor': {
+      'Tunisia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tunisia'
     },
-      'astapor': {
+      'Turkey': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Turkey'
     },
-      'astapor': {
+        'Turkmenistan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Turkmenistan'
     },
-        'astapor': {
+     'TurksandCaicosIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Turks and Caicos Islands'
     },
-     'astapor': {
+    'Tuvalu': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tuvalu'
     },
-    'astapor': {
+      'Uganda': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Uganda'
     },
-      'astapor': {
+      'Ukraine': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Ukraine'
     },
-      'astapor': {
+      'UnitedArabEmiratesr': {
       type: 'location',
-      name: 'Astapor'
+      name: 'United Arab Emirates'
     },
-      'astapor': {
+      'UnitedKingdom': {
       type: 'location',
-      name: 'Astapor'
+      name: 'United Kingdom'
     },
-      'astapor': {
+      'Uruguay': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Uruguay'
     },
-      'astapor': {
+      'Vanuatu': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Vanuatu'
     },
-        'astapor': {
+     'Uzbekistan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Uzbekistan'
     },
-     'astapor': {
+    'VaticanCity': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Vatican City'
     },
-    'astapor': {
+      'Venezuela': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Venezuela'
     },
-      'astapor': {
+      'Vietnam': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Vietnam'
     },
-      'astapor': {
+      'WallisandFutunar': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Wallis and Futuna'
     },
-      'astapor': {
+      'WestBank': {
       type: 'location',
-      name: 'Astapor'
+      name: 'West Bank'
     },
-      'astapor': {
+      'WesternSahara': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Western Sahara'
     },
-      'astapor': {
+     'Yemen': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Yemen'
     },
-        'astapor': {
+     'Zambia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Zambia'
     },
-     'astapor': {
+    'Zimbabwe': {
       type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
+      name: 'Zimbabwe'
     },
       'astapor': {
       type: 'location',

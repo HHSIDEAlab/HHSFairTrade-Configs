@@ -128,8 +128,7 @@
     'Healthcare': {
       type: 'topic',
       name: 'Healthcare'
-      }, '
-    },
+     },
     'CommunityHealth': {
       type: 'topic',
       name: 'CommunityHealth'

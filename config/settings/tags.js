@@ -5,7 +5,7 @@
   // true if they should be created automatically,
   // false to prevent creating tag entities that are not already in the system
   tags: {
-	 createMissingTags: true ;
+	 createMissingTags: true,
 	  // default skills
     'Management': {
       type: 'skill',
@@ -416,27 +416,195 @@
     },
     'GazaStrip': {
       type: 'location',
-      name: 'GazaStrip'
+      name: 'Gaza Strip'
     },
-    'astapor': {
+    'Georgia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Georgia'
     },
-    'astapor': {
+    'Germany': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Germany'
     },
-    'astapor': {
+    'Ghana': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Ghana'
     },
-    'astapor': {
+    'Gibraltar': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Gibraltar'
     },
-    'astapor': {
+    'Glorioso Islands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Glorioso Islands'
+    },
+    'Greece': {
+      type: 'location',
+      name: 'Greece'
+    },
+    'Greenland': {
+      type: 'location',
+      name: 'Greenland'
+    },
+    'Grenada': {
+      type: 'location',
+      name: 'Grenada'
+    },
+    'Guadeloupe': {
+      type: 'location',
+      name: 'Guadeloupe'
+    },
+    'Guatemala': {
+      type: 'location',
+      name: 'Guatemala'
+    },
+    'Guernsey': {
+      type: 'location',
+      name: 'Guernsey'
+    },
+    'Guinea': {
+      type: 'location',
+      name: 'Guinea'
+    },
+    'Guinea-Bissau': {
+      type: 'location',
+      name: 'Guinea-Bissau'
+    },
+    'Guyana': {
+      type: 'location',
+      name: 'Guyana'
+    },
+    'Haiti': {
+      type: 'location',
+      name: 'Haiti'
+    },
+    'HeardIslandandMcDonaldIslands': {
+      type: 'location',
+      name: 'Heard Island and McDonald Islands'
+    },
+    'Honduras': {
+      type: 'location',
+      name: 'Honduras'
+    },
+    'Hong Kong': {
+      type: 'location',
+      name: 'Hong Kong'
+    },
+    'Hungary': {
+      type: 'location',
+      name: 'Hungary'
+    },
+    'Iceland': {
+      type: 'location',
+      name: 'Iceland'
+    },
+    'India': {
+      type: 'location',
+      name: 'India'
+    },
+    'Indonesia': {
+      type: 'location',
+      name: 'Indonesia'
+    },
+    'Iran': {
+      type: 'location',
+      name: 'Iran'
+    },
+    'Iraq': {
+      type: 'location',
+      name: 'Iraq'
+    },
+    'Ireland': {
+      type: 'location',
+      name: 'Ireland'
+    },
+    'Isle of Man': {
+      type: 'location',
+      name: 'Isle of Man'
+    },
+    'Israel': {
+      type: 'location',
+      name: 'Israel'
+    },
+    'Italy': {
+      type: 'location',
+      name: 'Italy'
+    },
+    'Jamaica': {
+      type: 'location',
+      name: 'Jamaica'
+    },
+    'Jan Mayen': {
+      type: 'location',
+      name: 'Jan Mayen'
+    },
+    'Japan': {
+      type: 'location',
+      name: 'Japan'
+    },
+    'Jersey': {
+      type: 'location',
+      name: 'Jersey'
+    },
+    'Jordan': {
+      type: 'location',
+      name: 'Jordan'
+    },
+    'JuandeNovaIsland': {
+      type: 'location',
+      name: 'Juan de Nova Island'
+    },
+    'Kazakhstan': {
+      type: 'location',
+      name: 'Kazakhstan'
+    },
+    'Kenya': {
+      type: 'location',
+      name: 'Kenya'
+    },
+    'Kiribati': {
+      type: 'location',
+      name: 'Kiribati'
+    },
+    'Korea,North': {
+      type: 'location',
+      name: 'North Korea'
+    },
+    'Korea, South': {
+      type: 'location',
+      name: 'South Korea'
+    },
+    'Kosovo': {
+      type: 'location',
+      name: 'Kosovo'
+    },
+    'Kuwait': {
+      type: 'location',
+      name: 'Kuwait'
+    },
+    'Kyrgyzstan': {
+      type: 'location',
+      name: 'Kyrgyzstan'
+    },
+    'Laos': {
+      type: 'location',
+      name: 'Laos'
+    },
+    'Latvia': {
+      type: 'location',
+      name: 'Latvia'
+    },
+    'Lebanon': {
+      type: 'location',
+      name: 'Lebanon'
+    },
+    'Lesotho': {
+      type: 'location',
+      name: 'Lesotho'
+    },
+    'Liberia': {
+      type: 'location',
+      name: 'Liberia'
     },
     'astapor': {
       type: 'location',

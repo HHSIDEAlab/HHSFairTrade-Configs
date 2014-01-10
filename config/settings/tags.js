@@ -108,7 +108,7 @@
       type: 'skill',
       name: 'Audio & Video'
     },
-      'Grantwriting: {
+      'Grantwriting': {
       type: 'skill',
       name: 'Grant writing'
      },

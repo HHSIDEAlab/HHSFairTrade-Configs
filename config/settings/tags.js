@@ -5,6 +5,7 @@
   // true if they should be created automatically,
   // false to prevent creating tag entities that are not already in the system
   tags: {
+	 createMissingTags: true,
 	  // default skills
     'Management': {
       type: 'skill',
@@ -618,5 +619,5 @@
       name: 'Astapor'
     }
   }
-  // createMissingTags: true
+
 };

@@ -117,7 +117,7 @@
       type: 'topic',
       name: 'Global Affairs'
     },
-    'WorkforceDevelopment: {
+    'WorkforceDevelopment': {
       type: 'topic',
       name: 'Workforce Development'
     },

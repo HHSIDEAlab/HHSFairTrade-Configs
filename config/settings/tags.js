@@ -1074,668 +1074,223 @@
       type: 'location',
       name: 'Zambia'
     },
-    'Zimbabwe': {
+     'Zimbabwe': {
       type: 'location',
       name: 'Zimbabwe'
     },
-      'astapor': {
+      'Alabama,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Alabama, U.S. '
     },
-      'astapor': {
+      'Alaska,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Alaska, U.S.'
     },
-      'astapor': {
+      'Arizona,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Arizona, U.S.'
     },
-      'astapor': {
+      'Arkansas,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Arkansas, U.S.'
     },
-      'astapor': {
+      'California,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'California, U.S.'
     },
-        'astapor': {
+      'Colorado,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Colorado, U.S.'
     },
-     'astapor': {
+     'Connecticut,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Connecticut, U.S.'
     },
-    'astapor': {
+    'Delaware,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Delaware, U.S.'
     },
-      'astapor': {
+      'Florida,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Florida, U.S.'
     },
-      'astapor': {
+      'Georgia,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Georgia, U.S.'
     },
-      'astapor': {
+      'Hawaii,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Hawaii, U.S.'
     },
-      'astapor': {
+      'Idaho,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Idaho, U.S.'
     },
-      'astapor': {
+      'Illinois,U.S': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Illinois, U.S.'
     },
-        'astapor': {
+      'Indiana,U.S': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Indiana, U.S'
     },
-     'astapor': {
+     'Iowa,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Iowa, U.S.'
     },
-    'astapor': {
+    'Kansas,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kansas, U.S.'
     },
-      'astapor': {
+      'Kentucky, U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kentucky, U.S.'
     },
-      'astapor': {
+      'Louisiana,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Louisiana, U.S.'
     },
-      'astapor': {
+      'Maine,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Maine, U.S.'
     },
-      'astapor': {
+      'Maryland,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Maryland, U.S.'
     },
-      'astapor': {
+      'Massachusetts,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Massachusetts, U.S.'
     },
-        'astapor': {
+      'Michigan,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Michigan, U.S.'
     },
-     'astapor': {
+     'Minnesota,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Minnesota, U.S.'
     },
-    'astapor': {
+      'Mississippi,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Mississippi, U.S.'
     },
-      'astapor': {
+      'Missouri,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Missouri, U.S.'
     },
-      'astapor': {
+      'Montana,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Montana, U.S.'
     },
-      'astapor': {
+      'Nebraska,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nebraska, U.S.'
     },
-      'astapor': {
+      'Nevada,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Nevada, U.S..'
     },
-      'astapor': {
+      'NewHampshire,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New Hampshire, U.S.'
     },
-        'astapor': {
+      'NewJersey,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New Jersey, U.S.'
     },
-     'astapor': {
+     'NewMexico,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New Mexico, U.S.'
     },
-    'astapor': {
+     'NewYork,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'New York, U.S.'
     },
-      'astapor': {
+      'NorthCarolina,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'North Carolina, U.S.'
     },
-      'astapor': {
+      'NorthDakota,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'North Dakota, U.S.'
     },
-      'astapor': {
+      'Ohio,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Ohio, U.S.'
     },
-      'astapor': {
+      'Oklahoma,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Oklahoma, U.S.'
     },
-      'astapor': {
+      'Oregon,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Oregon, U.S.'
     },
-        'astapor': {
+      'Pennsylvania,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Pennsylvania, U.S.'
     },
-     'astapor': {
+     'RhodeIsland,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Rhode Island, U.S.'
     },
-    'astapor': {
+     'SouthCarolina,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Carolina, U.S.'
     },
-      'astapor': {
+      'SouthDakota,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Dakota, U.S.'
     },
-      'astapor': {
+      'Tennessee,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Tennessee, U.S.'
     },
-      'astapor': {
+      'Texas,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Texas, U.S.'
     },
-      'astapor': {
+      'Utah,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Utah, U.S.'
     },
-      'astapor': {
+      'Vermont,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Vermont, U.S.'
     },
-        'astapor': {
+      'Virginia,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Virginia, U.S.'
     },
-     'astapor': {
+     'Washington,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Washington, U.S.'
     },
-    'astapor': {
+     'WestVirginia,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'West Virginia, U.S.'
     },
-      'astapor': {
+      'Wisconsin,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Wisconsin, U.S.'
     },
-      'astapor': {
+      'Wyoming,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Wyoming, U.S.'
     },
-      'astapor': {
+      'Washington D.C.,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Washington D.C., U.S.'
     },
-      'astapor': {
+      'U.S.VirginIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'U.S. Virgin Islands'
     },
-      'astapor': {
+      'AmericanSamoa,U.S.': {
       type: 'location',
-      name: 'Astapor'
+      name: 'American Samoa, U.S.'
     },
-        'astapor': {
+      'Guam,U.S.': {
       type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-        'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-     'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-    'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
-      'astapor': {
-      type: 'location',
-      name: 'Astapor'
-    },
+      name: 'Guam, U.S.'
 };

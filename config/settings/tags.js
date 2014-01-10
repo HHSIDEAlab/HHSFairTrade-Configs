@@ -19,15 +19,181 @@
       type: 'skill',
       name: 'Recruiting'
     },
+    'SocialMedia': {
+      type: 'skill',
+      name: 'social Media'
+    },
+    'Marketing': {
+      type: 'skill',
+      name: 'Marketing'
+    },
+    'WebDevelopment': {
+      type: 'skill',
+      name: 'Web Development'
+    },
+    'Speechwriting': {
+      type: 'skill',
+      name: 'Speech Writing'
+    },
+    'Training': {
+      type: 'skill',
+      name: 'Training'
+    },
+    'Research': {
+      type: 'skill',
+      name: 'Research'
+    },
+    'Training': {
+      type: 'skill',
+      name: 'Training'
+    },
+    'PublicSpeaking': {
+      type: 'skill',
+      name: 'Public Speaking'
+    },
+    'ForeignLanguage': {
+      type: 'skill',
+      name: 'Foreign Language'
+
+    },
+    'Eventplanning': {
+      type: 'skill',
+      name: 'Event Planning'
+    },
+    'SignLanguage': {
+      type: 'skill',
+      name: 'Sign language'
+    },
+    'Dataentry': {
+      type: 'skill',
+      name: 'Data entry'
+    },
+    'EnglishasSecondLanguage': {
+      type: 'skill',
+      name: 'ESOL'
+    },
+    'Technology': {
+      type: 'skill',
+      name: 'Technology'
+    },
+    'Strategic Planning': {
+      type: 'skill',
+      name: 'Strategic Planning'
+    },
+    'Financial': {
+      type: 'skill',
+      name: 'Financial'
+    },
+    'Policy': {
+      type: 'skill',
+      name: 'Policy'
+    },
+    'GraphicDesign': {
+      type: 'skill',
+      name: 'Graphic Design'
+    },
+    'Legislative': {
+      type: 'skill',
+      name: 'Legislative'
+    },
+    'Administrative': {
+      type: 'skill',
+      name: 'Administrative'
+    },
+    'Other': {
+      type: 'skill',
+      name: 'Other'
+    },
+    'AudioVideo': {
+      type: 'skill',
+      name: 'Audio & Video'
+    },
+      'Grantwriting: {
+      type: 'skill',
+      name: 'Grant writing'
+     },
 	//default topics
-    'Community': {
+    'GlobalAffairs': {
       type: 'topic',
-      name: 'Community Events'
+      name: 'Global Affairs'
+    },
+    'WorkforceDevelopment: {
+      type: 'topic',
+      name: 'Workforce Development'
+    },
+    'Sustainability': {
+      type: 'topic',
+      name: 'Sustainability'
+    },
+    'Healthcare': {
+      type: 'topic',
+      name: 'Healthcare'
+      }, '
+    },
+    'CommunityHealth': {
+      type: 'topic',
+      name: 'CommunityHealth'
+    },
+    'Education': {
+      type: 'topic',
+      name: 'Education'
+    },
+    'Nutrition': {
+      type: 'topic',
+      name: 'Nutrition'
+    },
+    'Science': {
+      type: 'topic',
+      name: 'Science'
+    },
+    'OpenData': {
+      type: 'topic',
+      name: 'Open Data'
+    },
+    'SmallBusiness': {
+      type: 'topic',
+      name: 'Small Business'
+    },
+    'Children&Families': {
+      type: 'topic',
+      name: 'Children & Families'
     },
     'Current': {
       type: 'topic',
       name: 'Current Events'
-    },
+     },
+     'Policy': {
+      type: 'topic',
+      name: 'Policy'
+     },
+      'Legislative': {
+      type: 'topic',
+      name: 'Legislative'
+     },
+       'Women': {
+      type: 'topic',
+      name: 'Women\'s Health'
+     },
+      'Data': {
+      type: 'topic',
+      name: 'Data'
+     },
+       'Information Technology': {
+      type: 'topic',
+      name: 'InformationTechnology'
+     },
+       'BusinessProcess': {
+      type: 'topic',
+      name: 'Business Process'
+     },
+       'Legislative': {
+      type: 'topic',
+      name: 'Legislative'
+     },
+       'RecordsManagement': {
+      type: 'topic',
+      name: 'Records Management'
+     },
 	// agency tags
     'OS': {
       type: 'agency',

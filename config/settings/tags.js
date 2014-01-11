@@ -21,7 +21,7 @@
     },
     'SocialMedia': {
       type: 'skill',
-      name: 'social Media'
+      name: 'Social Media'
     },
     'Marketing': {
       type: 'skill',
@@ -1458,4 +1458,5 @@
       'Guam,U.S.': {
       type: 'location',
       name: 'Guam, U.S.'
+    }
 };

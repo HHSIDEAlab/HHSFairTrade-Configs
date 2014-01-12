@@ -1459,4 +1459,6 @@
       type: 'location',
       name: 'Guam, U.S.'
     }
+}
+
 };

@@ -1,4 +1,5 @@
 module.exports = {
+  url: 'http://localhost:1337/api',
   user: {
     username: 'midas',
     password: 'midas'

@@ -1458,7 +1458,7 @@
       'Guam,U.S.': {
       type: 'location',
       name: 'Guam, U.S.'
-    }
+    },
 }
 
 };

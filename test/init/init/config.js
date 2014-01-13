@@ -1,7 +1,7 @@
 module.exports = {
   user: {
-    username: 'midas',
-    password: 'midas'
+    username: 'initialize',
+    password: 'initialize'
   },
   tags: [
     // Required for opportunity defaults

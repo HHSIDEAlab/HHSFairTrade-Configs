@@ -8,6 +8,10 @@ padding: 6px;
 overflow: scroll;
 }
 
+#footer {
+  margin-top:100px;
+}
+
 #footer ul li {
   display:inline;
   padding:25px;

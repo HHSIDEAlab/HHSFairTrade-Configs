@@ -4,7 +4,7 @@ module.exports = {
     username: 'demo@aa.bb',
     password: 'demo'
   },
-  tags: {
+  tags: [
     // Required for opportunity defaults
     {
       type: 'task-time-required',
@@ -1544,6 +1544,6 @@ module.exports = {
     name: 'Guam, U.S.'
   }            
   
-  }
+  ]
 
 };

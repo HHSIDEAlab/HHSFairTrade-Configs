@@ -4,7 +4,7 @@ module.exports = {
     username: 'midas',
     password: 'midas'
   },
-  tags: [
+  tags: {
     // Required for opportunity defaults
     {
       type: 'task-time-required',
@@ -1543,6 +1543,7 @@ module.exports = {
     type: 'location',
     name: 'Guam, U.S.'
   }            
-  ]
+  
+  }
 
 };

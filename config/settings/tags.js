@@ -5,7 +5,6 @@
   // true if they should be created automatically,
   // false to prevent creating tag entities that are not already in the system
   tags: {
-	 createMissingTags: true ;
 	  // default skills
     'Management': {
       type: 'skill',
@@ -19,15 +18,180 @@
       type: 'skill',
       name: 'Recruiting'
     },
+    'SocialMedia': {
+      type: 'skill',
+      name: 'Social Media'
+    },
+    'Marketing': {
+      type: 'skill',
+      name: 'Marketing'
+    },
+    'WebDevelopment': {
+      type: 'skill',
+      name: 'Web Development'
+    },
+    'Speechwriting': {
+      type: 'skill',
+      name: 'Speech Writing'
+    },
+    'Training': {
+      type: 'skill',
+      name: 'Training'
+    },
+    'Research': {
+      type: 'skill',
+      name: 'Research'
+    },
+    'Training': {
+      type: 'skill',
+      name: 'Training'
+    },
+    'PublicSpeaking': {
+      type: 'skill',
+      name: 'Public Speaking'
+    },
+    'ForeignLanguage': {
+      type: 'skill',
+      name: 'Foreign Language'
+
+    },
+    'Eventplanning': {
+      type: 'skill',
+      name: 'Event Planning'
+    },
+    'SignLanguage': {
+      type: 'skill',
+      name: 'Sign language'
+    },
+    'Dataentry': {
+      type: 'skill',
+      name: 'Data entry'
+    },
+    'EnglishasSecondLanguage': {
+      type: 'skill',
+      name: 'ESOL'
+    },
+    'Technology': {
+      type: 'skill',
+      name: 'Technology'
+    },
+    'Strategic Planning': {
+      type: 'skill',
+      name: 'Strategic Planning'
+    },
+    'Financial': {
+      type: 'skill',
+      name: 'Financial'
+    },
+    'Policy': {
+      type: 'skill',
+      name: 'Policy'
+    },
+    'GraphicDesign': {
+      type: 'skill',
+      name: 'Graphic Design'
+    },
+    'Legislative': {
+      type: 'skill',
+      name: 'Legislative'
+    },
+    'Administrative': {
+      type: 'skill',
+      name: 'Administrative'
+    },
+    'Other': {
+      type: 'skill',
+      name: 'Other'
+    },
+    'AudioVideo': {
+      type: 'skill',
+      name: 'Audio & Video'
+    },
+      'Grantwriting': {
+      type: 'skill',
+      name: 'Grant writing'
+     },
 	//default topics
-    'Community': {
+    'GlobalAffairs': {
       type: 'topic',
-      name: 'Community Events'
+      name: 'Global Affairs'
+    },
+    'WorkforceDevelopment': {
+      type: 'topic',
+      name: 'Workforce Development'
+    },
+    'Sustainability': {
+      type: 'topic',
+      name: 'Sustainability'
+    },
+    'Healthcare': {
+      type: 'topic',
+      name: 'Healthcare'
+     },
+    'CommunityHealth': {
+      type: 'topic',
+      name: 'CommunityHealth'
+    },
+    'Education': {
+      type: 'topic',
+      name: 'Education'
+    },
+    'Nutrition': {
+      type: 'topic',
+      name: 'Nutrition'
+    },
+    'Science': {
+      type: 'topic',
+      name: 'Science'
+    },
+    'OpenData': {
+      type: 'topic',
+      name: 'Open Data'
+    },
+    'SmallBusiness': {
+      type: 'topic',
+      name: 'Small Business'
+    },
+    'Children&Families': {
+      type: 'topic',
+      name: 'Children & Families'
     },
     'Current': {
       type: 'topic',
       name: 'Current Events'
-    },
+     },
+     'Policy': {
+      type: 'topic',
+      name: 'Policy'
+     },
+      'Legislative': {
+      type: 'topic',
+      name: 'Legislative'
+     },
+       'Women': {
+      type: 'topic',
+      name: 'Women\'s Health'
+     },
+      'Data': {
+      type: 'topic',
+      name: 'Data'
+     },
+       'Information Technology': {
+      type: 'topic',
+      name: 'InformationTechnology'
+     },
+       'BusinessProcess': {
+      type: 'topic',
+      name: 'Business Process'
+     },
+       'Legislative': {
+      type: 'topic',
+      name: 'Legislative'
+     },
+       'RecordsManagement': {
+      type: 'topic',
+      name: 'Records Management'
+     },
 	// agency tags
     'OS': {
       type: 'agency',
@@ -416,208 +580,885 @@
     },
     'GazaStrip': {
       type: 'location',
-      name: 'GazaStrip'
+      name: 'Gaza Strip'
     },
-    'astapor': {
+    'Georgia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Georgia'
     },
-    'astapor': {
+    'Germany': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Germany'
     },
-    'astapor': {
+    'Ghana': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Ghana'
     },
-    'astapor': {
+    'Gibraltar': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Gibraltar'
     },
-    'astapor': {
+    'Glorioso Islands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Glorioso Islands'
     },
-    'astapor': {
+    'Greece': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Greece'
     },
-    'astapor': {
+    'Greenland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Greenland'
     },
-    'astapor': {
+    'Grenada': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Grenada'
     },
-    'astapor': {
+    'Guadeloupe': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guadeloupe'
     },
-    'astapor': {
+    'Guatemala': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guatemala'
     },
-    'astapor': {
+    'Guernsey': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guernsey'
     },
-    'astapor': {
+    'Guinea': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guinea'
     },
-    'astapor': {
+    'Guinea-Bissau': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guinea-Bissau'
     },
-    'astapor': {
+    'Guyana': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Guyana'
     },
-    'astapor': {
+    'Haiti': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Haiti'
     },
-    'astapor': {
+    'HeardIslandandMcDonaldIslands': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Heard Island and McDonald Islands'
     },
-    'astapor': {
+    'Honduras': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Honduras'
     },
-    'astapor': {
+    'Hong Kong': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Hong Kong'
     },
-    'astapor': {
+    'Hungary': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Hungary'
     },
-    'astapor': {
+    'Iceland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Iceland'
     },
-    'astapor': {
+    'India': {
       type: 'location',
-      name: 'Astapor'
+      name: 'India'
     },
-    'astapor': {
+    'Indonesia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Indonesia'
     },
-    'astapor': {
+    'Iran': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Iran'
     },
-    'astapor': {
+    'Iraq': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Iraq'
     },
-    'astapor': {
+    'Ireland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Ireland'
     },
-    'astapor': {
+    'Isle of Man': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Isle of Man'
     },
-    'astapor': {
+    'Israel': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Israel'
     },
-    'astapor': {
+    'Italy': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Italy'
     },
-    'astapor': {
+    'Jamaica': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Jamaica'
     },
-    'astapor': {
+    'Jan Mayen': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Jan Mayen'
     },
-    'astapor': {
+    'Japan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Japan'
     },
-    'astapor': {
+    'Jersey': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Jersey'
     },
-    'astapor': {
+    'Jordan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Jordan'
     },
-    'astapor': {
+    'JuandeNovaIsland': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Juan de Nova Island'
     },
-    'astapor': {
+    'Kazakhstan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kazakhstan'
     },
-    'astapor': {
+    'Kenya': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kenya'
     },
-    'astapor': {
+    'Kiribati': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kiribati'
     },
-    'astapor': {
+    'Korea,North': {
       type: 'location',
-      name: 'Astapor'
+      name: 'North Korea'
     },
-    'astapor': {
+    'Korea, South': {
       type: 'location',
-      name: 'Astapor'
+      name: 'South Korea'
     },
-    'astapor': {
+    'Kosovo': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kosovo'
     },
-    'astapor': {
+    'Kuwait': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kuwait'
     },
-    'astapor': {
+    'Kyrgyzstan': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Kyrgyzstan'
     },
-    'astapor': {
+    'Laos': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Laos'
     },
-    'astapor': {
+    'Latvia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Latvia'
     },
-    'astapor': {
+    'Lebanon': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Lebanon'
     },
-    'astapor': {
+    'Lesotho': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Lesotho'
     },
-    'astapor': {
+    'Liberia': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Liberia'
     },
-    'astapor': {
+    'Libya': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Libya'
     },
-    'astapor': {
+    'Liechtenstein': {
       type: 'location',
-      name: 'Astapor'
+      name: 'Liechtenstein'
     },
-    'astapor': {
+    'Lithuania': {
       type: 'location',
-      name: 'Astapor'
-    }
-  }
+      name: 'Lithuania'
+    },
+    'Luxembourg': {
+      type: 'location',
+      name: 'Luxembourg'
+    },
+    'Macau': {
+      type: 'location',
+      name: 'Macau'
+    },
+    'Macedonia': {
+      type: 'location',
+      name: 'Macedonia'
+    },
+    'Madagascar': {
+      type: 'location',
+      name: 'Madagascar'
+    },
+    'Malawi': {
+      type: 'location',
+      name: 'Malawi'
+    },
+    'Malaysia': {
+      type: 'location',
+      name: 'Malaysia'
+    },
+    'Maldives': {
+      type: 'location',
+      name: 'Maldives'
+    },
+    'Mali': {
+      type: 'location',
+      name: 'Mali'
+    },
+    'Malta': {
+      type: 'location',
+      name: 'Malta'
+    },
+    'Marshall Islands': {
+      type: 'location',
+      name: 'Marshall Islands'
+    },
+    'Martinique': {
+      type: 'location',
+      name: 'Martinique'
+    },
+    'Mauritania': {
+      type: 'location',
+      name: 'Mauritania'
+    },
+    'Mauritius': {
+      type: 'location',
+      name: 'Mauritius'
+    },
+    'Mayotte': {
+      type: 'location',
+      name: 'Mayotte'
+    },
+    'Mexico': {
+      type: 'location',
+      name: 'Mexico'
+    },
+    'Micronesia': {
+      type: 'location',
+      name: 'Micronesia'
+    },
+    'Moldova': {
+      type: 'location',
+      name: 'Moldova'
+    },
+    'Monaco': {
+      type: 'location',
+      name: 'Monaco'
+    },
+    'Mongolia': {
+      type: 'location',
+      name: 'Mongolia'
+    },
+    'Montenegro': {
+      type: 'location',
+      name: 'Montenegro'
+    },
+    'Montserrat': {
+      type: 'location',
+      name: 'Montserrat'
+    },
+    'Morocco': {
+      type: 'location',
+      name: 'Morocco'
+    },
+    'Mozambique': {
+      type: 'location',
+      name: 'Mozambique'
+    },
+    'Namibia': {
+      type: 'location',
+      name: 'Namibia'
+    },
+    'Nauru': {
+      type: 'location',
+      name: 'Nauru'
+    },
+    'Nepal': {
+      type: 'location',
+      name: 'Nepal'
+    },
+    'Netherlands': {
+      type: 'location',
+      name: 'Netherlands'
+    },
+    'NetherlandsAntilles': {
+      type: 'location',
+      name: 'Netherlands Antilles'
+    },
+    'New Caledonia': {
+      type: 'location',
+      name: 'New Caledonia'
+    },
+    'New Zealand': {
+      type: 'location',
+      name: 'New Zealand'
+    },
+    'Nicaragua': {
+      type: 'location',
+      name: 'Nicaragua'
+    },
+    'Niger': {
+      type: 'location',
+      name: 'Niger'
+    },
+    'Nigeria': {
+      type: 'location',
+      name: 'Nigeria'
+    },
+    'Niue': {
+      type: 'location',
+      name: 'Niue'
+    },
+    'NorfolkIsland': {
+      type: 'location',
+      name: 'Norfolk Island'
+    },
+    'NorthernMarianaIslands': {
+      type: 'location',
+      name: 'Northern Mariana Islands'
+    },
+    'Norway': {
+      type: 'location',
+      name: 'Norway'
+    },
+    'Oman': {
+      type: 'location',
+      name: 'Oman'
+    },
+    'Pakistan': {
+      type: 'location',
+      name: 'Pakistan'
+    },
+    'Palau': {
+      type: 'location',
+      name: 'Palau'
+    },
+    'Panama': {
+      type: 'location',
+      name: 'Panama'
+    },
+    'PapuaNewGuinea': {
+      type: 'location',
+      name: 'Papua New Guinea'
+    },
+    'ParacelIslands': {
+      type: 'location',
+      name: 'Paracel Islands'
+    },
+    'Paraguay': {
+      type: 'location',
+      name: 'Paraguay'
+    },
+    'Peru': {
+      type: 'location',
+      name: 'Peru'
+    },
+    'Philippines': {
+      type: 'location',
+      name: 'Philippines'
+    },
+    'Poland': {
+      type: 'location',
+      name: 'Poland'
+    },
+    'Portugal': {
+      type: 'location',
+      name: 'Portugal'
+    },
+    'PuertoRico': {
+      type: 'location',
+      name: 'Puerto Rico'
+    },
+     'Qatar': {
+      type: 'location',
+      name: 'Qatar'
+    },
+    'Reunion': {
+      type: 'location',
+      name: 'Reunion'
+    },
+     'Romania': {
+      type: 'location',
+      name: 'Romania'
+    },
+      'Russia': {
+      type: 'location',
+      name: 'Russia'
+    },
+      'Rwanda': {
+      type: 'location',
+      name: 'Rwanda'
+    },
+      'SaintHelena,Ascension,andTristandaCunha': {
+      type: 'location',
+      name: 'Saint Helena, Ascension, and Tristan da Cunha'
+    },
+      'SaintKittsandNevis': {
+      type: 'location',
+      name: 'Saint Kitts and Nevis'
+    },
+    'SaintLucia': {
+      type: 'location',
+      name: 'Saint Lucia'
+    },
+     'SaintPierreandMiquelon': {
+      type: 'location',
+      name: 'Saint Pierre and Miquelon'
+    },
+    'SaintVincentandtheGrenadines': {
+      type: 'location',
+      name: 'Saint Vincent and the Grenadines'
+    },
+      'Samoa': {
+      type: 'location',
+      name: 'Samoa'
+    },
+      'SanMarino': {
+      type: 'location',
+      name: 'San Marino'
+    },
+      'SaoTomeandPrincipe': {
+      type: 'location',
+      name: 'Sao Tome and Principe'
+    },
+      'SaudiArabia': {
+      type: 'location',
+      name: 'Saudi Arabia'
+    },
+      'Senegal': {
+      type: 'location',
+      name: 'Senegal'
+    },
+      'Serbia': {
+      type: 'location',
+      name: 'Serbia'
+    },
+     'Seychelles': {
+      type: 'location',
+      name: 'Seychelles'
+    },
+    'Sierra Leone': {
+      type: 'location',
+      name: 'Sierra Leone'
+    },
+     'Singapore': {
+      type: 'location',
+      name: 'Singapore'
+    },
+      'SintMaarten': {
+      type: 'location',
+      name: 'Sint Maarten'
+    },
+      'Slovakia': {
+      type: 'location',
+      name: 'Slovakia'
+    },
+      'Slovenia': {
+      type: 'location',
+      name: 'Slovenia'
+    },
+      'SolomonIslands': {
+      type: 'location',
+      name: 'Solomon Islands'
+    },
+     'Somalia': {
+      type: 'location',
+      name: 'Somalia'
+    },
+     'SouthAfrica': {
+      type: 'location',
+      name: 'South Africa'
+    },
+    'SouthGeorgiaandtheSouthSandwichIslands': {
+      type: 'location',
+      name: 'South Georgia and the South Sandwich Islands'
+    },
+      'SouthSudan': {
+      type: 'location',
+      name: 'South Sudan'
+    },
+      'SpratlyIslands': {
+      type: 'location',
+      name: 'Spratly Islands'
+    },
+      'SriLanka': {
+      type: 'location',
+      name: 'Sri Lanka'
+    },
+      'Sudan': {
+      type: 'location',
+      name: 'Sudan'
+    },
+      'Suriname': {
+      type: 'location',
+      name: 'Suriname'
+    },
+        'Swaziland': {
+      type: 'location',
+      name: 'Swaziland'
+    },
+     'Sweden': {
+      type: 'location',
+      name: 'Sweden'
+    },
+    'Switzerland': {
+      type: 'location',
+      name: 'Switzerland'
+    },
+      'Syria': {
+      type: 'location',
+      name: 'Syria'
+    },
+      'Taiwan': {
+      type: 'location',
+      name: 'Taiwan'
+    },
+      'Tajikistan': {
+      type: 'location',
+      name: 'Tajikistan'
+    },
+      'Tanzania': {
+      type: 'location',
+      name: 'Tanzania'
+    },
+      'Thailand': {
+      type: 'location',
+      name: 'Thailand'
+    },
+      'Timor-Leste': {
+      type: 'location',
+      name: 'Timor-Leste'
+    },
+     'Togo': {
+      type: 'location',
+      name: 'Togo'
+    },
+    'Tokelau': {
+      type: 'location',
+      name: 'Tokelau'
+    },
+      'Tonga': {
+      type: 'location',
+      name: 'Tonga'
+    },
+      'TrinidadandTobago': {
+      type: 'location',
+      name: 'Trinidad and Tobago'
+    },
+      'TromelinIsland': {
+      type: 'location',
+      name: 'Tromelin Island'
+    },
+      'Tunisia': {
+      type: 'location',
+      name: 'Tunisia'
+    },
+      'Turkey': {
+      type: 'location',
+      name: 'Turkey'
+    },
+        'Turkmenistan': {
+      type: 'location',
+      name: 'Turkmenistan'
+    },
+     'TurksandCaicosIslands': {
+      type: 'location',
+      name: 'Turks and Caicos Islands'
+    },
+    'Tuvalu': {
+      type: 'location',
+      name: 'Tuvalu'
+    },
+      'Uganda': {
+      type: 'location',
+      name: 'Uganda'
+    },
+      'Ukraine': {
+      type: 'location',
+      name: 'Ukraine'
+    },
+      'UnitedArabEmiratesr': {
+      type: 'location',
+      name: 'United Arab Emirates'
+    },
+      'UnitedKingdom': {
+      type: 'location',
+      name: 'United Kingdom'
+    },
+      'Uruguay': {
+      type: 'location',
+      name: 'Uruguay'
+    },
+      'Vanuatu': {
+      type: 'location',
+      name: 'Vanuatu'
+    },
+     'Uzbekistan': {
+      type: 'location',
+      name: 'Uzbekistan'
+    },
+    'VaticanCity': {
+      type: 'location',
+      name: 'Vatican City'
+    },
+      'Venezuela': {
+      type: 'location',
+      name: 'Venezuela'
+    },
+      'Vietnam': {
+      type: 'location',
+      name: 'Vietnam'
+    },
+      'WallisandFutunar': {
+      type: 'location',
+      name: 'Wallis and Futuna'
+    },
+      'WestBank': {
+      type: 'location',
+      name: 'West Bank'
+    },
+      'WesternSahara': {
+      type: 'location',
+      name: 'Western Sahara'
+    },
+     'Yemen': {
+      type: 'location',
+      name: 'Yemen'
+    },
+     'Zambia': {
+      type: 'location',
+      name: 'Zambia'
+    },
+     'Zimbabwe': {
+      type: 'location',
+      name: 'Zimbabwe'
+    },
+      'Alabama,U.S.': {
+      type: 'location',
+      name: 'Alabama, U.S. '
+    },
+      'Alaska,U.S.': {
+      type: 'location',
+      name: 'Alaska, U.S.'
+    },
+      'Arizona,U.S.': {
+      type: 'location',
+      name: 'Arizona, U.S.'
+    },
+      'Arkansas,U.S.': {
+      type: 'location',
+      name: 'Arkansas, U.S.'
+    },
+      'California,U.S.': {
+      type: 'location',
+      name: 'California, U.S.'
+    },
+      'Colorado,U.S.': {
+      type: 'location',
+      name: 'Colorado, U.S.'
+    },
+     'Connecticut,U.S.': {
+      type: 'location',
+      name: 'Connecticut, U.S.'
+    },
+    'Delaware,U.S.': {
+      type: 'location',
+      name: 'Delaware, U.S.'
+    },
+      'Florida,U.S.': {
+      type: 'location',
+      name: 'Florida, U.S.'
+    },
+      'Georgia,U.S.': {
+      type: 'location',
+      name: 'Georgia, U.S.'
+    },
+      'Hawaii,U.S.': {
+      type: 'location',
+      name: 'Hawaii, U.S.'
+    },
+      'Idaho,U.S.': {
+      type: 'location',
+      name: 'Idaho, U.S.'
+    },
+      'Illinois,U.S': {
+      type: 'location',
+      name: 'Illinois, U.S.'
+    },
+      'Indiana,U.S': {
+      type: 'location',
+      name: 'Indiana, U.S'
+    },
+     'Iowa,U.S.': {
+      type: 'location',
+      name: 'Iowa, U.S.'
+    },
+    'Kansas,U.S.': {
+      type: 'location',
+      name: 'Kansas, U.S.'
+    },
+      'Kentucky, U.S.': {
+      type: 'location',
+      name: 'Kentucky, U.S.'
+    },
+      'Louisiana,U.S.': {
+      type: 'location',
+      name: 'Louisiana, U.S.'
+    },
+      'Maine,U.S.': {
+      type: 'location',
+      name: 'Maine, U.S.'
+    },
+      'Maryland,U.S.': {
+      type: 'location',
+      name: 'Maryland, U.S.'
+    },
+      'Massachusetts,U.S.': {
+      type: 'location',
+      name: 'Massachusetts, U.S.'
+    },
+      'Michigan,U.S.': {
+      type: 'location',
+      name: 'Michigan, U.S.'
+    },
+     'Minnesota,U.S.': {
+      type: 'location',
+      name: 'Minnesota, U.S.'
+    },
+      'Mississippi,U.S.': {
+      type: 'location',
+      name: 'Mississippi, U.S.'
+    },
+      'Missouri,U.S.': {
+      type: 'location',
+      name: 'Missouri, U.S.'
+    },
+      'Montana,U.S.': {
+      type: 'location',
+      name: 'Montana, U.S.'
+    },
+      'Nebraska,U.S.': {
+      type: 'location',
+      name: 'Nebraska, U.S.'
+    },
+      'Nevada,U.S.': {
+      type: 'location',
+      name: 'Nevada, U.S..'
+    },
+      'NewHampshire,U.S.': {
+      type: 'location',
+      name: 'New Hampshire, U.S.'
+    },
+      'NewJersey,U.S.': {
+      type: 'location',
+      name: 'New Jersey, U.S.'
+    },
+     'NewMexico,U.S.': {
+      type: 'location',
+      name: 'New Mexico, U.S.'
+    },
+     'NewYork,U.S.': {
+      type: 'location',
+      name: 'New York, U.S.'
+    },
+      'NorthCarolina,U.S.': {
+      type: 'location',
+      name: 'North Carolina, U.S.'
+    },
+      'NorthDakota,U.S.': {
+      type: 'location',
+      name: 'North Dakota, U.S.'
+    },
+      'Ohio,U.S.': {
+      type: 'location',
+      name: 'Ohio, U.S.'
+    },
+      'Oklahoma,U.S.': {
+      type: 'location',
+      name: 'Oklahoma, U.S.'
+    },
+      'Oregon,U.S.': {
+      type: 'location',
+      name: 'Oregon, U.S.'
+    },
+      'Pennsylvania,U.S.': {
+      type: 'location',
+      name: 'Pennsylvania, U.S.'
+    },
+     'RhodeIsland,U.S.': {
+      type: 'location',
+      name: 'Rhode Island, U.S.'
+    },
+     'SouthCarolina,U.S.': {
+      type: 'location',
+      name: 'South Carolina, U.S.'
+    },
+      'SouthDakota,U.S.': {
+      type: 'location',
+      name: 'South Dakota, U.S.'
+    },
+      'Tennessee,U.S.': {
+      type: 'location',
+      name: 'Tennessee, U.S.'
+    },
+      'Texas,U.S.': {
+      type: 'location',
+      name: 'Texas, U.S.'
+    },
+      'Utah,U.S.': {
+      type: 'location',
+      name: 'Utah, U.S.'
+    },
+      'Vermont,U.S.': {
+      type: 'location',
+      name: 'Vermont, U.S.'
+    },
+      'Virginia,U.S.': {
+      type: 'location',
+      name: 'Virginia, U.S.'
+    },
+     'Washington,U.S.': {
+      type: 'location',
+      name: 'Washington, U.S.'
+    },
+     'WestVirginia,U.S.': {
+      type: 'location',
+      name: 'West Virginia, U.S.'
+    },
+      'Wisconsin,U.S.': {
+      type: 'location',
+      name: 'Wisconsin, U.S.'
+    },
+      'Wyoming,U.S.': {
+      type: 'location',
+      name: 'Wyoming, U.S.'
+    },
+      'Washington D.C.,U.S.': {
+      type: 'location',
+      name: 'Washington D.C., U.S.'
+    },
+      'U.S.VirginIslands': {
+      type: 'location',
+      name: 'U.S. Virgin Islands'
+    },
+      'AmericanSamoa,U.S.': {
+      type: 'location',
+      name: 'American Samoa, U.S.'
+    },
+      'Guam,U.S.': {
+      type: 'location',
+      name: 'Guam, U.S.'
+    },
+    createMissingTags: true,
+}
 
 };

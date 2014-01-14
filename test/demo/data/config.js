@@ -1,215 +1,1549 @@
 module.exports = {
   url: 'http://localhost:1337/api',
-  users: {
-    'mattchessen': {
-      name: 'Matt Chessen',
-      username: 'mattchessen-demo',
-      password: 'matt',
-      title: 'Consular Chief',
-      agency: 'Embassy Troublestan Consular Section',
-      location: 'Troublestan City',
-      photo: 'assets/users/mattchessen.jpg'
-    },
-    'mc': {
-      name: 'Matt B FSO',
-      username: 'mc-demo',
-      password: 'mc',
-      title: 'Foreign Service Officer',
-      agency: 'Embassy Troublestan Consular Section',
-      location: 'Troublestan City',
-      photo: 'assets/users/mc.jpg'
-    },
-    'acheson': {
-      name: 'Dean Acheson',
-      username: 'acheson-demo',
-      password: 'acheson',
-      title: 'Political Section Chief',
-      agency: 'Embassy Troublestan Political Section',
-      location: 'Troublestan City',
-      photo: 'assets/users/acheson.jpg'
-    },
-    'ambassador': {
-      name: 'Mrs. Ambassador',
-      username: 'ambassador-demo',
-      password: 'ambassador',
-      title: 'US Ambassador to Troublestan',
-      agency: 'Embassy Troublestan Political Section',
-      location: 'Troublestan City',
-      photo: 'assets/users/ambassador.jpg'
-    },
-    'assistantsecretary': {
-      name: 'Mr Assistant Secretary',
-      username: 'assistantsecretary-demo',
-      password: 'assistantsecretary',
-      title: 'Assistant Secretary',
-      agency: 'Embassy Troublestan Political Section',
-      location: 'Washington',
-      photo: 'assets/users/assistantsecretary.jpg'
-    },
-    'deskofficer': {
-      name: 'Mr. Desk Officer',
-      username: 'deskofficer-demo',
-      password: 'deskofficer',
-      title: 'Foreign Affairs Officer',
-      agency: 'Troublestan Desk',
-      location: 'Washington',
-      photo: 'assets/users/deskofficer.jpg'
-    }
+  user: {
+    username: 'demo@aa.bb',
+    password: 'demo'
   },
-  tags: {
-    'Political Reporting': {
-      type: 'skill',
-      name: 'Political Reporting'
-    },
-    'Consular Interviewing': {
-      type: 'skill',
-      name: 'Consular Interviewing'
-    },
-    'Polling': {
-      type: 'skill',
-      name: 'Polling'
-    },
-    'Elections': {
-      type: 'topic',
-      name: 'Elections'
-    },
-    'Troublestan Topic': {
-      type: 'topic',
-      name: 'Troublestan'
-    },
-    'Embassy Troublestan Consular Section': {
-      type: 'agency',
-      name: 'Embassy Troublestan Consular Section'
-    },
-    'Embassy Troublestan Political Section': {
-      type: 'agency',
-      name: 'Embassy Troublestan Political Section'
-    },
-    'Troublestan Desk': {
-      type: 'agency',
-      name: 'Troublestan Desk'
-    },
-    'Troublestan City': {
-      type: 'location',
-      name: 'Troublestan City'
-    },
-    'Troublestan': {
-      type: 'location',
-      name: 'Troublestan'
-    },
-    'Washington': {
-      type: 'location',
-      name: 'Washington, D.C'
-    }
-  },
-  projects: [
+  tags: [
+    // Required for opportunity defaults
     {
-      state: 'public',
-      title: 'Troublestan Election Reporting',
-      description: 'The political section at Embassy Troublestan would like to know what people are saying about the upcoming election. The Consular Chief agreed that Consular staff should integrate these questions into Consular interviews.',
-      cover: 'assets/projects/state.jpg',
-      owner: 'mattchessen',
-      owners: ['ambassador'],
-      tags: ['Political Reporting', 'Consular Interviewing', 'Elections', 'Troublestan Topic', 'Embassy Troublestan Political Section', 'Embassy Troublestan Consular Section', 'Polling', 'Troublestan', 'Troublestan City', 'Troublestan Desk'],
-      comments: [
-        {
-          topic: true,
-          user: 'acheson',
-          value: 'We\'d like to know what you\'ve been hearing about candidate Bob Roberts.',
-          children: [
-            {
-              user: 'mc',
-              value: 'Most applicants are very positive on Mr. Roberts. They cite his devotion and integrity as important. However, his association with the former president discredits him in the eyes of many.'
-            },
-            {
-              user: 'mattchessen',
-              value: 'I\'ve heard the same in many of my interviews. However, I also heard that if Roberts speaks out against the corruption of the former president, he could earn the trust of the nation.'
-            },
-            {
-              user: 'mc',
-              value: 'Every applicant I ask about Roberts this morning is beaming about his speech last night. They say he politely distanced himself from the policies of the ex-president.'
-            }
-          ]
-        },
-        {
-          topic: true,
-          user: 'acheson',
-          value: 'We\'d like to know what you\'ve been hearing about the President.',
-          children: [
-            {
-              user: 'mc',
-              value: 'Several visa applicants speculated that the President\'s reputation for corruption and his penchant for wild trips to Dubai have fatally damaged his prospects.'
-            },
-            {
-              user: 'deskofficer',
-              value: 'Last night I was at a fundraiser here in DC for Troublestan orphans, and the ex-pat community is very positive on the President. Many commented they\'ve wired home funds for his campaign.'
-            },
-            {
-              user: 'ambassador',
-              value: 'Do you know if the guests were primarily from the Left tribe or the Right tribe?'
-            },
-            {
-              user: 'deskofficer',
-              value: 'Left tribe. The Right tribe expats here tend to be from the working class. They generally oppose the President, but since they don\'t have much money to send home they have difficulty influencing the election.'
-            },
-            {
-              user: 'mattchessen',
-              value: 'Same split here. Left tribe supports the President and Right tribe is falling in behind Roberts.'
-            },
-            {
-              user: 'assistantsecretary',
-              value: 'This is very useful information. Please keep up the good work!'
-            }
-          ]
-        },
-        {
-          topic: true,
-          user: 'ambassador',
-          value: 'Could I please ask the team to think of creative ways of asking our local staff their opinions about the elections?',
-          children: [
-            {
-              user: 'acheson',
-              value: 'I think an email poll would be a good start. Could someone please create the opportunity?'
-            },
-            {
-              user: 'mc',
-              value: 'Happy to do it sir!.'
-            },
-            {
-              user: 'deskofficer',
-              value: 'I have some ideas. I\'ll comment on the opportunity after you create it.'
-            },
-            {
-              user: 'mattchessen',
-              value: 'Lets run this by PD since they have done considerable polling work.'
-            }
-          ]
-        }
-      ],
-      events: [
-        {
-          title: 'Pre-election meeting',
-          description: 'Meeting to discuss predicted election outcomes.',
-          location: 'VTC between Desk and Political Section'
-        },
-        {
-          title: 'Troublestan Elections',
-          description: 'First round elections start June 5',
-          location: 'Troublestan'
-        }
-      ],
-      tasks: [
-        {
-          state: 'public',
-          title: 'We need someone to turn this material into a cable',
-          description: 'This should be collated into a 2 page cable. PolCouns will provide the analysis.'
-        },
-        {
-          state: 'public',
-          title: 'We\'d like someone to informally poll the LES staff and local guard force for their views',
-          description: 'Outcome should be a short paper for the deputy pol chief to pass to the Ambassador.'
-        }
-      ]
-    }
+      type: 'task-time-required',
+      name: 'Part Time'
+    },
+    {
+      type: 'task-time-required',
+      name: 'Full Time'
+    },
+    {
+      type: 'task-time-required',
+      name: '20% Time'
+    },
+    // ------------
+    {
+      type: 'task-people',
+      name: '1 person'
+    },
+    {
+      type: 'task-people',
+      name: '2 - 5 people'
+    },
+    {
+      type: 'task-people',
+      name: '> 5 people'
+    },
+    {
+      type: 'task-people',
+      name: 'A Team'
+    },
+    // ------------
+    {
+      type: 'task-skills-required',
+      name: 'Required'
+    },
+    {
+      type: 'task-skills-required',
+      name: 'Not Required'
+    },
+    // ------------
+    {
+      type: 'task-length',
+      name: '1 Day'
+    },
+    {
+      type: 'task-length',
+      name: '1 - 3 Days'
+    },
+    {
+      type: 'task-length',
+      name: '1 Week'
+    },
+    {
+      type: 'task-length',
+      name: '1 Month'
+    },
+    {
+      type: 'task-length',
+      name: 'A Few Months'
+    },
+    // -------------
+    {
+      type: 'task-time-estimate',
+      name: 'Less than 1 hour'
+    },
+    {
+      type: 'task-time-estimate',
+      name: '1 - 3 hours'
+    },
+    {
+      type: 'task-time-estimate',
+      name: '4 - 8 hours'
+    },
+    {
+      type: 'task-time-estimate',
+      name: '9 - 24 hours'
+    },
+    {
+      type: 'task-time-estimate',
+      name: '25 - 40 hours'
+    },
+    {
+      type: 'task-time-estimate',
+      name: 'longer than 40 hours'
+    },
+  // default skills
+  {
+    type: 'skill',
+    name: 'Management'
+  },
+ {
+    type: 'skill',
+    name: 'Project Management'
+  },
+ {
+    type: 'skill',
+    name: 'Recruiting'
+  },
+ {
+    type: 'skill',
+    name: 'Social Media'
+  },
+ {
+    type: 'skill',
+    name: 'Marketing'
+  },
+ {
+    type: 'skill',
+    name: 'Web Development'
+  },
+  {
+    type: 'skill',
+    name: 'Speech Writing'
+  },
+ {
+    type: 'skill',
+    name: 'Training'
+  },
+   {
+    type: 'skill',
+    name: 'Research'
+  },
+   {
+    type: 'skill',
+    name: 'Training'
+  },
+   {
+    type: 'skill',
+    name: 'Public Speaking'
+  },
+  {
+    type: 'skill',
+    name: 'Foreign Language'
+
+  },
+   {
+    type: 'skill',
+    name: 'Event Planning'
+  },
+   {
+    type: 'skill',
+    name: 'Sign language'
+  },
+   {
+    type: 'skill',
+    name: 'Data entry'
+  },
+   {
+    type: 'skill',
+    name: 'ESOL'
+  },
+   {
+    type: 'skill',
+    name: 'Technology'
+  },
+   {
+    type: 'skill',
+    name: 'Strategic Planning'
+  },
+   {
+    type: 'skill',
+    name: 'Financial'
+  },
+   {
+    type: 'skill',
+    name: 'Policy'
+  },
+   {
+    type: 'skill',
+    name: 'Graphic Design'
+  },
+   {
+    type: 'skill',
+    name: 'Legislative'
+  },
+  {
+    type: 'skill',
+    name: 'Administrative'
+  },
+   {
+    type: 'skill',
+    name: 'Other'
+  },
+   {
+    type: 'skill',
+    name: 'Audio & Video'
+  },
+   {
+    type: 'skill',
+    name: 'Grant writing'
+   },
+//default topics
+   {
+    type: 'topic',
+    name: 'Global Affairs'
+  },
+   {
+    type: 'topic',
+    name: 'Workforce Development'
+  },
+   {
+    type: 'topic',
+    name: 'Sustainability'
+  },
+   {
+    type: 'topic',
+    name: 'Healthcare'
+   },
+   {
+    type: 'topic',
+    name: 'CommunityHealth'
+  },
+   {
+    type: 'topic',
+    name: 'Education'
+  },
+   {
+    type: 'topic',
+    name: 'Nutrition'
+  },
+   {
+    type: 'topic',
+    name: 'Science'
+  },
+  {
+    type: 'topic',
+    name: 'Open Data'
+  },
+  {
+    type: 'topic',
+    name: 'Small Business'
+  },
+  {
+    type: 'topic',
+    name: 'Children & Families'
+  },
+  {
+    type: 'topic',
+    name: 'Current Events'
+   },
+   {
+    type: 'topic',
+    name: 'Policy'
+   },
+     {
+    type: 'topic',
+    name: 'Legislative'
+   },
+    {
+    type: 'topic',
+    name: 'Women\'s Health'
+   },
+     {
+    type: 'topic',
+    name: 'Data'
+   },
+      {
+    type: 'topic',
+    name: 'InformationTechnology'
+   },
+     {
+    type: 'topic',
+    name: 'Business Process'
+   },
+     {
+    type: 'topic',
+    name: 'Legislative'
+   },
+    {
+    type: 'topic',
+    name: 'Records Management'
+   },
+// agency tags
+   {
+    type: 'agency',
+    name: 'Office of the Secretary (OS including the StaffDivs)'
+  },
+   {
+    type: 'agency',
+    name: 'Administration for Children and Families (ACF)'
+  },
+   {
+    type: 'agency',
+    name: 'Administration for Community Living (ACL)'
+  },
+   {
+    type: 'agency',
+    name: 'Agency for Healthcare Research and Quality (AHRQ)'
+  },
+  {
+    type: 'agency',
+    name: 'Centers for Disease Control and Prevention (CDC)'
+  },
+   {
+    type: 'agency',
+    name: 'Centers for Medicare & Medicaid Services'
+  },
+  {
+    type: 'agency',
+    name: 'Food and Drug Administration (FDA)'
+  },
+   {
+    type: 'agency',
+    name: 'Health Resources and Services Administration (HRSA)'
+  },
+   {
+    type: 'agency',
+    name: 'Indian Health Service (IHS)'
+  },
+   {
+    type: 'agency',
+    name: 'National Institutes of Health (NIH)'
+  },
+   {
+    type: 'agency',
+    name: 'Substance Abuse and Mental Health Services Administration (SAMHSA)'
+  },
+//location tags
+   {
+    type: 'location',
+    name: 'Afghanistan'
+  },
+ {
+    type: 'location',
+    name: 'Akrotiri'
+  },
+   {
+    type: 'location',
+    name: 'Albania'
+  },
+  {
+    type: 'location',
+    name: 'Algeria'
+  },
+   {
+    type: 'location',
+    name: 'American Samoa'
+  },
+   {
+    type: 'location',
+    name: 'Andorra'
+  },
+   {
+    type: 'location',
+    name: 'Angola'
+  },
+   {
+    type: 'location',
+    name: 'Anguilla'
+  },
+   {
+    type: 'location',
+    name: 'Antarctica'
+  },
+   {
+    type: 'location',
+    name: 'Argentina'
+  },
+   {
+    type: 'location',
+    name: 'Armenia'
+  },
+  {
+    type: 'location',
+    name: 'Aruba'
+  },
+   {
+    type: 'location',
+    name: 'Ashmore and Cartier Islands'
+  },
+   {
+    type: 'location',
+    name: 'Australia'
+  },
+  {
+    type: 'location',
+    name: 'Austria'
+  },
+  {
+    type: 'location',
+    name: 'Azerbaijan'
+  },
+  {
+    type: 'location',
+    name: 'Bahamas, The'
+  },
+  {
+    type: 'location',
+    name: 'Bahrain'
+  },
+   {
+    type: 'location',
+    name: 'Barbados'
+  },
+   {
+    type: 'location',
+    name: 'Bangladesh'
+  },
+   {
+    type: 'location',
+    name: 'Bassas da India'
+  },
+   {
+    type: 'location',
+    name: 'Belarus'
+  },
+   {
+    type: 'location',
+    name: 'Belgium'
+  },
+   {
+    type: 'location',
+    name: 'Belize'
+  },
+   {
+    type: 'location',
+    name: 'Belize'
+  },
+   {
+    type: 'location',
+    name: 'Bermuda'
+  },
+   {
+    type: 'location',
+    name: 'Bhutan'
+  },
+  {
+    type: 'location',
+    name: 'Bolivia'
+  },
+   {
+    type: 'location',
+    name: 'Bonaire, Sint Eustatius and Saba'
+  },
+  {
+    type: 'location',
+    name: 'Bosnia and Herzegovina'
+  },
+   {
+    type: 'location',
+    name: 'Botswana'
+  },
+   {
+    type: 'location',
+    name: 'Bouvet Island'
+  },
+  {
+    type: 'location',
+    name: 'Brazil'
+  },
+   {
+    type: 'location',
+    name: 'British Indian Ocean Territory'
+  },
+   {
+    type: 'location',
+    name: 'British Virgin Islands'
+  },
+   {
+    type: 'location',
+    name: 'Brunei'
+  },
+   {
+    type: 'location',
+    name: 'Bulgaria'
+  },
+   {
+    type: 'location',
+    name: 'Burkina Faso'
+  },
+  {
+    type: 'location',
+    name: 'Burma'
+  },
+   {
+    type: 'location',
+    name: 'Burundi'
+  },
+  {
+    type: 'location',
+    name: 'Cabo Verde'
+  },
+  {
+    type: 'location',
+    name: 'Cambodia'
+  },
+   {
+    type: 'location',
+    name: 'Cameroon'
+  },
+  {
+    type: 'location',
+    name: 'Canada'
+  },
+   {
+    type: 'location',
+    name: 'Cayman Islands'
+  },
+  {
+    type: 'location',
+    name: 'Central African Republic'
+  },
+  {
+    type: 'location',
+    name: 'Chile'
+  },
+  {
+    type: 'location',
+    name: 'China'
+  },
+   {
+    type: 'location',
+    name: 'Christmas Island'
+  },
+  {
+    type: 'location',
+    name: 'Clipperton Island'
+  },
+   {
+    type: 'location',
+    name: 'Cocos (Keeling) Islands'
+  },
+   {
+    type: 'location',
+    name: 'Colombia'
+  },
+   {
+    type: 'location',
+    name: 'Comoros'
+  },
+  {
+    type: 'location',
+    name: 'Congo (Brazzaville)'
+  },
+   {
+    type: 'location',
+    name: 'Congo (Kinshasa)'
+  },
+  {
+    type: 'location',
+    name: 'Coral Sea Islands'
+  },
+   {
+    type: 'location',
+    name: 'Astapor'
+  },
+   {
+    type: 'location',
+    name: 'Costa Rica'
+  },
+   {
+    type: 'location',
+    name: 'Croatia'
+  },
+  {
+    type: 'location',
+    name: 'Cuba'
+  },
+   {
+    type: 'location',
+    name: 'Curacao'
+  },
+   {
+    type: 'location',
+    name: 'Cyprus'
+  },
+   {
+    type: 'location',
+    name: 'Czech Republic'
+  },
+  {
+    type: 'location',
+    name: 'Denmark'
+  },
+   {
+    type: 'location',
+    name: 'Dhekelia'
+  },
+  {
+    type: 'location',
+    name: 'Djibouti'
+  },
+  {
+    type: 'location',
+    name: 'Dominica'
+  },
+  {
+    type: 'location',
+    name: 'Dominican Republic'
+  },
+   {
+    type: 'location',
+    name: 'Ecuador'
+  },
+   {
+    type: 'location',
+    name: 'Egypt'
+  },
+   {
+    type: 'location',
+    name: 'El Salvador'
+  },
+   {
+    type: 'location',
+    name: 'Equatorial Guinea'
+  },
+  {
+    type: 'location',
+    name: 'Eritrea'
+  },
+  {
+    type: 'location',
+    name: 'Estonia'
+  },
+   {
+    type: 'location',
+    name: 'Ethiopia'
+  },
+  {
+    type: 'location',
+    name: 'Europa Island'
+  },
+  {
+    type: 'location',
+    name: 'Falkland Islands (Islas Malvinas)'
+  },
+  {
+    type: 'location',
+    name: 'Faroe Islands'
+  },
+  {
+    type: 'location',
+    name: 'Fiji'
+  },
+   {
+    type: 'location',
+    name: 'Finland'
+  },
+  {
+    type: 'location',
+    name: 'France'
+  },
+  {
+    type: 'location',
+    name: 'French Guiana'
+  },
+   {
+    type: 'location',
+    name: 'French Polynesia'
+  },
+  {
+    type: 'location',
+    name: 'French Southern and Antarctic Lands'
+  },
+   {
+    type: 'location',
+    name: 'Gambia, The'
+  },
+  {
+    type: 'location',
+    name: 'Gaza Strip'
+  },
+  {
+    type: 'location',
+    name: 'Georgia'
+  },
+   {
+    type: 'location',
+    name: 'Germany'
+  },
+  {
+    type: 'location',
+    name: 'Ghana'
+  },
+  {
+    type: 'location',
+    name: 'Gibraltar'
+  },
+  {
+    type: 'location',
+    name: 'Glorioso Islands'
+  },
+   {
+    type: 'location',
+    name: 'Greece'
+  },
+  {
+    type: 'location',
+    name: 'Greenland'
+  },
+  {
+    type: 'location',
+    name: 'Grenada'
+  },
+  {
+    type: 'location',
+    name: 'Guadeloupe'
+  },
+  {
+    type: 'location',
+    name: 'Guatemala'
+  },
+  {
+    type: 'location',
+    name: 'Guernsey'
+  },
+  {
+    type: 'location',
+    name: 'Guinea'
+  },
+  {
+    type: 'location',
+    name: 'Guinea-Bissau'
+  },
+  {
+    type: 'location',
+    name: 'Guyana'
+  },
+  {
+    type: 'location',
+    name: 'Haiti'
+  },
+  {
+    type: 'location',
+    name: 'Heard Island and McDonald Islands'
+  },
+  {
+    type: 'location',
+    name: 'Honduras'
+  },
+   {
+    type: 'location',
+    name: 'Hong Kong'
+  },
+   {
+    type: 'location',
+    name: 'Hungary'
+  },
+  {
+    type: 'location',
+    name: 'Iceland'
+  },
+  {
+    type: 'location',
+    name: 'India'
+  },
+  {
+    type: 'location',
+    name: 'Indonesia'
+  },
+  {
+    type: 'location',
+    name: 'Iran'
+  },
+  {
+    type: 'location',
+    name: 'Iraq'
+  },
+  {
+    type: 'location',
+    name: 'Ireland'
+  },
+   {
+    type: 'location',
+    name: 'Isle of Man'
+  },
+  {
+    type: 'location',
+    name: 'Israel'
+  },
+   {
+    type: 'location',
+    name: 'Italy'
+  },
+   {
+    type: 'location',
+    name: 'Jamaica'
+  },
+   {
+    type: 'location',
+    name: 'Jan Mayen'
+  },
+   {
+    type: 'location',
+    name: 'Japan'
+  },
+   {
+    type: 'location',
+    name: 'Jersey'
+  },
+   {
+    type: 'location',
+    name: 'Jordan'
+  },
+   {
+    type: 'location',
+    name: 'Juan de Nova Island'
+  },
+  {
+    type: 'location',
+    name: 'Kazakhstan'
+  },
+   {
+    type: 'location',
+    name: 'Kenya'
+  },
+  {
+    type: 'location',
+    name: 'Kiribati'
+  },
+  {
+    type: 'location',
+    name: 'North Korea'
+  },
+   {
+    type: 'location',
+    name: 'South Korea'
+  },
+  {
+    type: 'location',
+    name: 'Kosovo'
+  },
+  {
+    type: 'location',
+    name: 'Kuwait'
+  },
+   {
+    type: 'location',
+    name: 'Kyrgyzstan'
+  },
+   {
+    type: 'location',
+    name: 'Laos'
+  },
+   {
+    type: 'location',
+    name: 'Latvia'
+  },
+   {
+    type: 'location',
+    name: 'Lebanon'
+  },
+   {
+    type: 'location',
+    name: 'Lesotho'
+  },
+  {
+    type: 'location',
+    name: 'Liberia'
+  },
+  {
+    type: 'location',
+    name: 'Libya'
+  },
+   {
+    type: 'location',
+    name: 'Liechtenstein'
+  },
+   {
+    type: 'location',
+    name: 'Lithuania'
+  },
+   {
+    type: 'location',
+    name: 'Luxembourg'
+  },
+   {
+    type: 'location',
+    name: 'Macau'
+  },
+   {
+    type: 'location',
+    name: 'Macedonia'
+  },
+   {
+    type: 'location',
+    name: 'Madagascar'
+  },
+  {
+    type: 'location',
+    name: 'Malawi'
+  },
+   {
+    type: 'location',
+    name: 'Malaysia'
+  },
+  {
+    type: 'location',
+    name: 'Maldives'
+  },
+  {
+    type: 'location',
+    name: 'Mali'
+  },
+  {
+    type: 'location',
+    name: 'Malta'
+  },
+  {
+    type: 'location',
+    name: 'Marshall Islands'
+  },
+  {
+    type: 'location',
+    name: 'Martinique'
+  },
+   {
+    type: 'location',
+    name: 'Mauritania'
+  },
+  {
+    type: 'location',
+    name: 'Mauritius'
+  },
+   {
+    type: 'location',
+    name: 'Mayotte'
+  },
+  {
+    type: 'location',
+    name: 'Mexico'
+  },
+  {
+    type: 'location',
+    name: 'Micronesia'
+  },
+  {
+    type: 'location',
+    name: 'Moldova'
+  },
+   {
+    type: 'location',
+    name: 'Monaco'
+  },
+   {
+    type: 'location',
+    name: 'Mongolia'
+  },
+  {
+    type: 'location',
+    name: 'Montenegro'
+  },
+   {
+    type: 'location',
+    name: 'Montserrat'
+  },
+   {
+    type: 'location',
+    name: 'Morocco'
+  },
+   {
+    type: 'location',
+    name: 'Mozambique'
+  },
+  {
+    type: 'location',
+    name: 'Namibia'
+  },
+  {
+    type: 'location',
+    name: 'Nauru'
+  },
+  {
+    type: 'location',
+    name: 'Nepal'
+  },
+  {
+    type: 'location',
+    name: 'Netherlands'
+  },
+  {
+    type: 'location',
+    name: 'Netherlands Antilles'
+  },
+  {
+    type: 'location',
+    name: 'New Caledonia'
+  },
+  {
+    type: 'location',
+    name: 'New Zealand'
+  },
+   {
+    type: 'location',
+    name: 'Nicaragua'
+  },
+  {
+    type: 'location',
+    name: 'Niger'
+  },
+   {
+    type: 'location',
+    name: 'Nigeria'
+  },
+   {
+    type: 'location',
+    name: 'Niue'
+  },
+   {
+    type: 'location',
+    name: 'Norfolk Island'
+  },
+   {
+    type: 'location',
+    name: 'Northern Mariana Islands'
+  },
+   {
+    type: 'location',
+    name: 'Norway'
+  },
+   {
+    type: 'location',
+    name: 'Oman'
+  },
+   {
+    type: 'location',
+    name: 'Pakistan'
+  },
+   {
+    type: 'location',
+    name: 'Palau'
+  },
+   {
+    type: 'location',
+    name: 'Panama'
+  },
+   {
+    type: 'location',
+    name: 'Papua New Guinea'
+  },
+   {
+    type: 'location',
+    name: 'Paracel Islands'
+  },
+  {
+    type: 'location',
+    name: 'Paraguay'
+  },
+   {
+    type: 'location',
+    name: 'Peru'
+  },
+   {
+    type: 'location',
+    name: 'Philippines'
+  },
+  {
+    type: 'location',
+    name: 'Poland'
+  },
+   {
+    type: 'location',
+    name: 'Portugal'
+  },
+   {
+    type: 'location',
+    name: 'Puerto Rico'
+  },
+   {
+    type: 'location',
+    name: 'Qatar'
+  },
+  {
+    type: 'location',
+    name: 'Reunion'
+  },
+    {
+    type: 'location',
+    name: 'Romania'
+  },
+   {
+    type: 'location',
+    name: 'Russia'
+  },
+   {
+    type: 'location',
+    name: 'Rwanda'
+  },
+   {
+    type: 'location',
+    name: 'Saint Helena, Ascension, and Tristan da Cunha'
+  },
+   {
+    type: 'location',
+    name: 'Saint Kitts and Nevis'
+  },
+  {
+    type: 'location',
+    name: 'Saint Lucia'
+  },
+   {
+    type: 'location',
+    name: 'Saint Pierre and Miquelon'
+  },
+  {
+    type: 'location',
+    name: 'Saint Vincent and the Grenadines'
+  },
+   {
+    type: 'location',
+    name: 'Samoa'
+  },
+    {
+    type: 'location',
+    name: 'San Marino'
+  },
+   {
+    type: 'location',
+    name: 'Sao Tome and Principe'
+  },
+   {
+    type: 'location',
+    name: 'Saudi Arabia'
+  },
+  {
+    type: 'location',
+    name: 'Senegal'
+  },
+    {
+    type: 'location',
+    name: 'Serbia'
+  },
+    {
+    type: 'location',
+    name: 'Seychelles'
+  },
+   {
+    type: 'location',
+    name: 'Sierra Leone'
+  },
+    {
+    type: 'location',
+    name: 'Singapore'
+  },
+   {
+    type: 'location',
+    name: 'Sint Maarten'
+  },
+    {
+    type: 'location',
+    name: 'Slovakia'
+  },
+    {
+    type: 'location',
+    name: 'Slovenia'
+  },
+    {
+    type: 'location',
+    name: 'Solomon Islands'
+  },
+   {
+    type: 'location',
+    name: 'Somalia'
+  },
+    {
+    type: 'location',
+    name: 'South Africa'
+  },
+   {
+    type: 'location',
+    name: 'South Georgia and the South Sandwich Islands'
+  },
+   {
+    type: 'location',
+    name: 'South Sudan'
+  },
+   {
+    type: 'location',
+    name: 'Spratly Islands'
+  },
+    {
+    type: 'location',
+    name: 'Sri Lanka'
+  },
+   {
+    type: 'location',
+    name: 'Sudan'
+  },
+  {
+    type: 'location',
+    name: 'Suriname'
+  },
+    {
+    type: 'location',
+    name: 'Swaziland'
+  },
+   {
+    type: 'location',
+    name: 'Sweden'
+  },
+   {
+    type: 'location',
+    name: 'Switzerland'
+  },
+     {
+    type: 'location',
+    name: 'Syria'
+  },
+  {
+    type: 'location',
+    name: 'Taiwan'
+  },
+    {
+    type: 'location',
+    name: 'Tajikistan'
+  },
+  {
+    type: 'location',
+    name: 'Tanzania'
+  },
+   {
+    type: 'location',
+    name: 'Thailand'
+  },
+    {
+    type: 'location',
+    name: 'Timor-Leste'
+  },
+   {
+    type: 'location',
+    name: 'Togo'
+  },
+   {
+    type: 'location',
+    name: 'Tokelau'
+  },
+   {
+    type: 'location',
+    name: 'Tonga'
+  },
+    {
+    type: 'location',
+    name: 'Trinidad and Tobago'
+  },
+   {
+    type: 'location',
+    name: 'Tromelin Island'
+  },
+    {
+    type: 'location',
+    name: 'Tunisia'
+  },
+    {
+    type: 'location',
+    name: 'Turkey'
+  },
+    {
+    type: 'location',
+    name: 'Turkmenistan'
+  },
+    {
+    type: 'location',
+    name: 'Turks and Caicos Islands'
+  },
+   {
+    type: 'location',
+    name: 'Tuvalu'
+  },
+     {
+    type: 'location',
+    name: 'Uganda'
+  },
+     {
+    type: 'location',
+    name: 'Ukraine'
+  },
+     {
+    type: 'location',
+    name: 'United Arab Emirates'
+  },
+     {
+    type: 'location',
+    name: 'United Kingdom'
+  },
+    {
+    type: 'location',
+    name: 'Uruguay'
+  },
+   {
+    type: 'location',
+    name: 'Vanuatu'
+  },
+   {
+    type: 'location',
+    name: 'Uzbekistan'
+  },
+   {
+    type: 'location',
+    name: 'Vatican City'
+  },
+    {
+    type: 'location',
+    name: 'Venezuela'
+  },
+     {
+    type: 'location',
+    name: 'Vietnam'
+  },
+    {
+    type: 'location',
+    name: 'Wallis and Futuna'
+  },
+    {
+    type: 'location',
+    name: 'West Bank'
+  },
+  {
+    type: 'location',
+    name: 'Western Sahara'
+  },
+   {
+    type: 'location',
+    name: 'Yemen'
+  },
+    {
+    type: 'location',
+    name: 'Zambia'
+  },
+   {
+    type: 'location',
+    name: 'Zimbabwe'
+  },
+    {
+    type: 'location',
+    name: 'Alabama, U.S. '
+  },
+   {
+    type: 'location',
+    name: 'Alaska, U.S.'
+  },
+ {
+    type: 'location',
+    name: 'Arizona, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Arkansas, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'California, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Colorado, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Connecticut, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Delaware, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Florida, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Georgia, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Hawaii, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Idaho, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Illinois, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Indiana, U.S'
+  },
+   {
+    type: 'location',
+    name: 'Iowa, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Kansas, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Kentucky, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Louisiana, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Maine, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Maryland, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Massachusetts, U.S.'
+  },
+  {
+    type: 'location',
+    name: 'Michigan, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Minnesota, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Mississippi, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Missouri, U.S.'
+  },
+  {
+    type: 'location',
+    name: 'Montana, U.S.'
+  },
+  {
+    type: 'location',
+    name: 'Nebraska, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Nevada, U.S..'
+  },
+   {
+    type: 'location',
+    name: 'New Hampshire, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'New Jersey, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'New Mexico, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'New York, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'North Carolina, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'North Dakota, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Ohio, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Oklahoma, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Oregon, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Pennsylvania, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Rhode Island, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'South Carolina, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'South Dakota, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'Tennessee, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Texas, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Utah, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Vermont, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Virginia, U.S.'
+  },
+    {
+    type: 'location',
+    name: 'Washington, U.S.'
+  },
+   {
+    type: 'location',
+    name: 'West Virginia, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Wisconsin, U.S.'
+  },
+  {
+    type: 'location',
+    name: 'Wyoming, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Washington D.C., U.S.'
+  },
+     {
+    type: 'location',
+    name: 'U.S. Virgin Islands'
+  },
+     {
+    type: 'location',
+    name: 'American Samoa, U.S.'
+  },
+     {
+    type: 'location',
+    name: 'Guam, U.S.'
+  }            
+  
   ]
+
 };

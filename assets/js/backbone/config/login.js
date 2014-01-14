@@ -15,6 +15,6 @@ define({
     // should the username/password fields be expanded/visible by default?
     expand: true,
     // should the user be able to logout (for auto-login systems)
-    logout: false
+    logout: true
   }
 });

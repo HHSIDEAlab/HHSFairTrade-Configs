@@ -1,5 +1,4 @@
 
-
 /**
  * Local environment settings
  *
@@ -90,8 +89,8 @@ module.exports = {
     port                : 465,
     // username and password settings for secure connections
     auth                : {
-      user              : 'boegt77@gmail.com',
-      pass              : 'abcd.1234%'
+      user              : '',
+      pass              : ''
     },
     // ignore server support for STARTTLS (defaults to false)
     ignoreTLS           : false,

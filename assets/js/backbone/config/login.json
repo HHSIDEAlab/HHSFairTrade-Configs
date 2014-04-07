@@ -1,0 +1,16 @@
+{
+  "oauth": [
+  ],
+  "config": {
+  },
+  "local": {
+    "enabled": true,
+    "expand": true,
+    "logout": true
+  },
+  "terms": {
+    "enabled": true,
+    "name": "Terms and Conditions",
+    "link": "https://hhstoc.example.gov/"
+  }
+}

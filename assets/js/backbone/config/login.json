@@ -13,5 +13,9 @@
     "enabled": true,
     "name": "Terms of Use",
     "link": "http://www.hhs.gov/idealab/fairtrade-tos/"
+  },
+  "profile": {
+    "edit": true,
+    "editUrl": null
   }
 }

@@ -77,12 +77,15 @@ module.exports = {
     layoutDir: 'assets/email/layouts'
   },
 
+  // Email dispatch protocol (i.e. SMTP  or SES)
+  emailProtocol: 'SMTP',
+
   // SMTP Mail settings -- uses Nodemailer
   // See for more config options: https://github.com/andris9/Nodemailer#setting-up-smtp
   smtp: {
     // Specify to use a supported service; leave blank for SMTP
     // See: https://github.com/andris9/Nodemailer#well-known-services-for-smtp
-    service             : 'Gmail',
+    service             : '',
     // remote SMTP host
     host                : 'localhost',
     // true to use SSL connections

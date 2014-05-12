@@ -175,7 +175,7 @@ The next step depends on whether the midas app is run from a privileged account.
 
      sudo npm link
 
-### Clone the git repository.
+### Clone the midas repository
 
 Change back to the parent directory for sails-postgresql and clone the midas repo.
 
@@ -201,6 +201,11 @@ Otherwise, link in the pseudo-globally installed customized sails-postgresql
 
      npm link sails-postgresql
 
+Update the midas submodules.
+
+     git submodule init
+     git submodule update
+     
 Then run the normal npm package installer
 
      npm install

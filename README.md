@@ -1,9 +1,17 @@
 HHSFairTrade-Configs
 ====================
 
-Initial Specific Configs / Tags and more for HHS FairTrade 
+## Dependency
 
-*clone this repo into the same parent directory of the sails-postgresql directory and the HHSFairTrade app
-*Once cloned, from the Root of the FairTrade Project Enter this command to link these configs:
+This is a customization repo that depends on the midas full application repo. [midas](https://github.com/HHSIDEALab/midas.git)
 
-make import DIR=../HHSFairTrade-Configs 
+## Installation
+
+For installation instructions, read [INSTALL.md](INSTALL.md).
+
+## Import Specific Configuration for HHS FairTrade 
+
+* clone this repo into the same parent directory of the midas app
+* Once cloned, from the midas directory enter the command below to import the Fair Trade customizations. 
+
+     make import DIR=../HHSFairTrade-Configs 

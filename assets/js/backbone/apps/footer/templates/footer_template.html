@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-lg-12">
       <p class="centered">This website is provided in an early stage development format to enable user feedback, testing, and concept validation. It is available to HHS Staff via the HHS intranet. We hope you find it useful and will share the website with other HHS Department staff.  Parts of the website may not function perfectly. Further, parts of this website may not be accessible to those using assistive technologies.</p>
-      <p class="centered">If you want to provide feedback, have questions about the website, or need accessibility assistance, please contact Read Holman at 202-690-6946 or <a href="mailto:Read.Holman@hhs.gov?subject=HHS FairTrade">Read.Holman@hhs.gov</a></p>
+      <p class="centered">If you want to provide feedback, have questions about the website, or need accessibility assistance, please contact Read Holman at 202-690-5946 or <a href="mailto:Read.Holman@hhs.gov?subject=HHS FairTrade">Read.Holman@hhs.gov</a></p>
       </div>
     </div>  
     <hr>
@@ -18,6 +18,17 @@
             <li><a href="mailto:read.holman@hhs.gov?subject=HHS FairTrade">Contact Us</a></li>
         </ul>
       </div> 
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <a href="https://github.com/HHSIDEALab/midas"><i class="icon icon-github"></i> powered by midas</a>
+        |
+        version <%- version.version %> (<a href="https://github.com/HHSIDEALab/midas/commit/<%- version.gitLong %>"><%- version.gitShort %></a>)
+        <% if (login.terms.enabled === true) { %>
+        |
+        <a href="<%= login.terms.link %>"><%= login.terms.name %></a>
+        <% } %>
+      </div>
     </div>
   </div>
 </div>

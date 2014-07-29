@@ -16,4 +16,5 @@ export:
 	-cp test/init/init/config.js $(DIR)/test/init/init/config.js
 	-cp test/demo/data/config.js $(DIR)/test/demo/data/config.js
 	-cp -R test/demo/data/assets/* $(DIR)/test/demo/data/assets
+	-cp -R views/*.ejs $(DIR)/views
 
